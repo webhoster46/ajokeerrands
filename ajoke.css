@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+ background-color: rgb(247, 240, 240);
+}
+#image{
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
+margin-top: 0.4rem;
+}
+
+img{
+display: block;
+width: 300px;
+}
+
+p img{
+  
+    width: 25px;
+border-radius: 10px;
+
+}
+
+
+/*typography*/
+section{
+
+   color:black;
+  padding: 4px;
+  font-size: 1.2rem;
+  
+
+}
+
+.support,.About{
+    text-align: center;
+    margin: 1px auto;
+    box-shadow: 0 0 15px rgb(0,0,0,0.1);
+font-weight: bold;
+  
+}
+
+.contact{
+    color: #ffff;
+   background-color: grey;
+  font-weight: bold;
+}
+
+.border2{
+
+    padding: 12px;
+    border-radius: 9px;
+    border: 1px solid white;
+
+}
+
+
+/*Layout*/
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header{
+    background:tomato;
+    padding: 2em 0;
+    color: white;
+    text-align: center;
+    }
+
+    footer{
+        text-align: center;
+       background-color: tomato;
+       padding: 2em 0;
+       color: white;
+       font-size: 1.2rem;
+    }
+
+/*nav*/
+
+
+
+
+
+.logo{
+    font-weight: bold;
+   
+    margin-left: 3px;
+font-size: 1.2rem;
+text-align: center;
+}
+
+
+nav{
+margin-top:.54em ;
+
+}
+
+nav ul{
+display: flex;
+list-style-type: none;
+justify-content: center;
+padding: 0;
+font-size: 1.16rem;
+}
+
+nav li{
+margin-left: 1.4em;
+}
+
+nav a{
+text-decoration: none;
+color:white;
+font-weight: 600;
+}
+
+
+
+
+@media (max-width:768px) {
+
+    
+    .container{
+     display: block;
+    }
+
+
+    p img{
+  
+        width: 25px;
+border-radius: 10px;
+  
+}
+
+
+ 
+     }
+
